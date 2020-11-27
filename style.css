@@ -1,0 +1,83 @@
+.package .box {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box {
+    text-align: center;
+    font-weight: bolder;
+    color: #64b5ff;
+    height: 100%;
+}
+
+.element .main {
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.element .main::after {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #64b5ff;
+    position: absolute;
+    left: 50%;
+    bottom: 23%;
+    transform: translate(-50%, 50%);
+}
+ 
+
+.img img {
+    margin: 50px;
+}
+
+.price {
+    color: #f75363;
+}
+
+.price .mo {
+    font-size: 15px;
+}
+
+.plan {
+    text-align: left;
+    padding: 24px;
+}
+
+.plan span {
+    font-weight: 100 !important;
+}
+
+.boxs {
+    border: 1px solid #64b5ff;
+    margin-top: 250px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px -5px #000;
+}
+
+
+.element {
+    padding: 30px 20px;
+    background: #fff;
+    width: 100%;
+    height: 350px
+}
+
+button {
+    font-weight: bold !important;
+}
+
+button.btn {
+    background: #64b5ff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 20px;
+    color: #fff;
+}
+
+button.btn:hover {
+    background: #f75363;
+    color: #fff
+}
